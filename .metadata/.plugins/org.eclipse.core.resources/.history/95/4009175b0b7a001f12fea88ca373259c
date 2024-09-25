@@ -1,0 +1,14 @@
+package CoreJava;
+
+public class Childvehicle extends ParentVehicle {
+	
+	public void colour() {
+		System.out.println(color);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class programmingpractise {
+	
+	public static void main(String args[])
+	{
+		for(int i=4;i>=1;i--) {
+			int k=10;
+			System.out.println("");
+			for(int j=10;j>=0;j--)
+			{
+				if(j>i) {
+				System.out.print(k +" ");
+				}
+				else {
+					break;
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package CoreJava;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DemoDate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				
+		Date d1= new Date();
+		
+		SimpleDateFormat sdf=new SimpleDateFormat("mm/dd/yyyy");
+		System.out.println(d1.toString());
+		System.out.println(sdf.format(d1)));
+		
+	}
+
+}

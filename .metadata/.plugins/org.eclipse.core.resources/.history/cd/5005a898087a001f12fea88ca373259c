@@ -1,0 +1,13 @@
+
+public class ParentAircraft {
+
+	public void engine() {
+		System.out.println("Engine");
+	}
+	
+	public void safety() {
+		System.out.println("Safety");
+	}
+	
+	public void AircraftColor();
+}

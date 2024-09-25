@@ -1,0 +1,18 @@
+package CoreJava;
+
+import java.util.Date;
+
+public class DemoDate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				
+		Date d1= new Date();
+		
+		SimpleDateormat sdf=new SimpleDateFormat();
+		System.out.println(d1.toString());
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package CoreJava;
+
+public class ParentVehicle {
+	
+	String color="red";
+	
+	public void gear() {
+		System.out.println(" vehicle Color");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

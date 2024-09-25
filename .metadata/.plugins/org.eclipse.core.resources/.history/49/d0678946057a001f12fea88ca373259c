@@ -1,0 +1,9 @@
+package CoreJava;
+
+public interface CentralTraffic {
+	
+	public void greeengo();
+	public void redstop();
+	public void flashyellow();
+
+}

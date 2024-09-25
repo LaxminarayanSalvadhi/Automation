@@ -1,0 +1,17 @@
+
+public class PS2 {
+
+	int a=1;	
+	public int increement()
+	{
+		a=a+1;
+		return a;
+	}
+	
+	public int decreement()
+	{
+		a=a-1;
+		return a;
+	}
+	
+}
