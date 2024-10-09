@@ -1,6 +1,7 @@
 package CoreJava;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class DemoDate {
@@ -15,6 +16,12 @@ public class DemoDate {
 		System.out.println(d1.toString());
 		System.out.println(sdf.format(d1));
 		System.out.println(sdf1.format(d1));
+		
+		System.out.println("Calendar Outpts");
+		Calendar cal=Calendar.getInstance();
+		System.out.println(cal.get(Calendar.AM_PM));
+		System.out.println(cal.get(Calendar.DAY_OF_MONTH));
+		System.out.println(cal.get(Calendar.DAY_OF_WEEK_IN_MONTH));
 		
 	}
 
